@@ -122,8 +122,8 @@ $(function(){
 
     // 鼠标移到购物车上时图片改变并且出现购物车信息
     $('.shopping-car').mouseover(function () {
-        $(".car-img").attr ("src", "../素材/icon/25.png");
-        $(".more-img").attr ("src", "../素材/icon/24.png");
+        $(".car-img").attr ("src", "素材/icon/25.png");
+        $(".more-img").attr ("src", "素材/icon/24.png");
         $(this).css(
             {
                 'background':'white',
@@ -133,8 +133,8 @@ $(function(){
     });
     $('.shopping-car').mouseout(function () {
         $('.shopping-car-list').hide();
-        $(".car-img").attr("src", "../素材/icon/26.png");
-        $(".more-img").attr("src", "../素材/icon/23.png");
+        $(".car-img").attr("src", "素材/icon/26.png");
+        $(".more-img").attr("src", "素材/icon/23.png");
         $('.shopping-car').css(
             {
                 'background': 'red',
@@ -142,8 +142,8 @@ $(function(){
             });
         $('.shopping-car-list').mouseover(function () {
             $(this).show();
-            $(".car-img").attr("src", "../素材/icon/25.png");
-            $(".more-img").attr("src", "../素材/icon/24.png");
+            $(".car-img").attr("src", "素材/icon/25.png");
+            $(".more-img").attr("src", "素材/icon/24.png");
             $('.shopping-car').css(
                 {
                     'background': 'white',
@@ -152,8 +152,8 @@ $(function(){
         });
         $('.shopping-car-list').mouseout(function () {
             $(this).hide();
-            $(".car-img").attr("src", "../素材/icon/26.png");
-            $(".more-img").attr("src", "../素材/icon/23.png");
+            $(".car-img").attr("src", "素材/icon/26.png");
+            $(".more-img").attr("src", "素材/icon/23.png");
             $('.shopping-car').css(
                 {
                     'background': 'red',
